@@ -15,6 +15,7 @@ elForm.addEventListener("submit", (evt) => {
     if(text == ""){
         elInpt.style.backgroundColor = "red";
     }else{
+        elInpt.style.backgroundColor = "";
         elLi.append(elP);
         elUl.prepend(elLi);
         elBox.prepend(elUl);
